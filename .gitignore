@@ -1,0 +1,75 @@
+# Node dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.env
+
+# macOS
+.DS_Store
+
+# Android
+/android/.gradle/
+/android/app/build/
+/android/build/
+/android/local.properties
+/android/.idea/
+/android/captures/
+/android/.cxx/
+/android/.externalNativeBuild/
+/android/.settings/
+
+# IntelliJ / VSCode
+.vscode/
+/.idea/
+
+# Xcode / iOS
+/ios/build/
+/ios/Pods/
+/ios/Podfile.lock
+ios/.idea/
+*.xcworkspace
+*.xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+DerivedData/
+
+# Bundler / Metro
+.bundle/
+.expo/
+.expo-shared/
+*.bundle
+
+# Watchman
+.watchmanconfig
+
+# Logs
+*.log
+*.tmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache / Temp files
+.tmp/
+temp/
+*.swp
+*.swo
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Gradle caches
+.gradle/
+**/build/
+local.properties
+
+# Misc
+*.keystore
+*.jks

@@ -1,0 +1,15 @@
+# ninja log v5
+3	27	0	C:/Users/Manar/VISION-MobileApp/android/app/.cxx/Debug/3y6v603y/x86_64/CMakeFiles/cmake.verify_globs	d6be586abe51172c
+31	1770	7831751211909548	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/9222f73e75fd62fffdd008af8bcbddb0/codegen/jni/react/renderer/components/safeareacontext/States.cpp.o	da5ea5049c54141b
+19	2064	7831751214735584	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/9754f60249d149d3663015e6535b0b3f/jni/react/renderer/components/safeareacontext/EventEmitters.cpp.o	5477f0f7b2fa95a
+36	2238	7831751216550731	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/df164f9f00e37ffe5bbf6ea0dfc50263/components/safeareacontext/safeareacontextJSI-generated.cpp.o	77fd42127aebe366
+40	2344	7831751217637003	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/fafb72fb1a60595bddcf659a79f4daa3/build/generated/source/codegen/jni/safeareacontext-generated.cpp.o	f2e817756bea7a5c
+12	2602	7831751220224592	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/d2aac2b63aabe13177e1eff2be935e4b/renderer/components/safeareacontext/RNCSafeAreaViewState.cpp.o	fa3b4a166bb7c3eb
+5	2721	7831751221398620	CMakeFiles/appmodules.dir/OnLoad.cpp.o	5174d1de554ff369
+27	2795	7831751222151256	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/9754f60249d149d3663015e6535b0b3f/jni/react/renderer/components/safeareacontext/ShadowNodes.cpp.o	1412f34b371ba207
+24	2877	7831751222947035	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/9222f73e75fd62fffdd008af8bcbddb0/codegen/jni/react/renderer/components/safeareacontext/Props.cpp.o	8a1a6f619e9f3a69
+16	3260	7831751226741337	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/79459043d80ecb5d724bb2973d356f4b/renderer/components/safeareacontext/ComponentDescriptors.cpp.o	2473988e38e8f53c
+8	3326	7831751227449549	safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir/df7699e75105235dd8bb0b185719c9c8/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp.o	a832187f7a3372c9
+3326	3414	7831751228347330	C:/Users/Manar/VISION-MobileApp/android/app/build/intermediates/cxx/Debug/3y6v603y/obj/x86_64/libreact_codegen_safeareacontext.so	1972638b14a402b0
+1	3692	7831751231062217	CMakeFiles/appmodules.dir/C_/Users/Manar/VISION-MobileApp/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	867b110497b2fd25
+3692	3773	7831751231971667	C:/Users/Manar/VISION-MobileApp/android/app/build/intermediates/cxx/Debug/3y6v603y/obj/x86_64/libappmodules.so	80d34c141ae7d1aa
