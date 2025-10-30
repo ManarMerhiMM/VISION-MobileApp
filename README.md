@@ -107,7 +107,7 @@ Make sure to enable:
 
 ## 🧠 System Data Flow
 
-1. Raspberry Pi aggregates sensor data (heart rate, SpO₂, system data, motion) from ESP32-based modules.  
+1. Raspberry Pi collects live processed biometric data (SPO2, Heart Rate, Galvanic Skin Resistance, and Relative Humidity). 
 2. The **Mobile App** connects to the Raspberry Pi via BLE and displays live readings.  
 3. The app **uploads data** periodically to the **Laravel API** using HTTPS.  
 4. The **API** stores validated readings in **MySQL**.  
