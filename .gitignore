@@ -1,75 +1,82 @@
-# Node dependencies
+# ===============================
+# Node / React Native
+# ===============================
 node_modules/
-npm-debug.log
-yarn-debug.log*
-yarn-error.log*
-package-lock.json
-.env
-
-# macOS
-.DS_Store
-
-# Android
-/android/.gradle/
-/android/app/build/
-/android/build/
-/android/local.properties
-/android/.idea/
-/android/captures/
-/android/.cxx/
-/android/.externalNativeBuild/
-/android/.settings/
-
-# IntelliJ / VSCode
-.vscode/
-/.idea/
-
-# Xcode / iOS
-/ios/build/
-/ios/Pods/
-/ios/Podfile.lock
-ios/.idea/
-*.xcworkspace
-*.xcuserdata/
-*.xcuserstate
-*.xccheckout
-*.moved-aside
-DerivedData/
-
-# Bundler / Metro
-.bundle/
-.expo/
-.expo-shared/
-*.bundle
-
-# Watchman
-.watchmanconfig
-
-# Logs
-*.log
-*.tmp
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# Cache / Temp files
-.tmp/
-temp/
+# Metro
+.metro-health-check*
+
+# ===============================
+# Environment files
+# ===============================
+.env
+.env.local
+.env.development
+.env.production
+
+# ===============================
+# React Native
+# ===============================
+.bundle/
+dist/
+
+# ===============================
+# Android
+# ===============================
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/.idea/
+android/*.iml
+android/gradlew.bat
+android/gradlew
+android/gradle/wrapper/gradle-wrapper.jar
+android/gradle/wrapper/gradle-wrapper.properties
+
+# Logs
+*.log
+
+# ===============================
+# iOS
+# ===============================
+ios/Pods/
+ios/build/
+ios/*.xcworkspace
+ios/*.xcuserstate
+ios/.idea/
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+.idea/
 *.swp
 *.swo
 
-# Fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
-fastlane/readme.md
+# ===============================
+# OS
+# ===============================
+.DS_Store
+Thumbs.db
 
-# Gradle caches
-.gradle/
-**/build/
-local.properties
 
-# Misc
-*.keystore
-*.jks
+# Android build artifacts
+android/app/.cxx/
+android/app/build/
+android/.gradle/
+android/build/
+android/local.properties
+android/debug.keystore
+*.log
+
+
+# Logs
+*.log

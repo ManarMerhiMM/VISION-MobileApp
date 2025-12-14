@@ -1,6 +1,0 @@
-C:/Users/Manar/VISION-MobileApp/android/app/.cxx/Debug/3y6v603y/x86_64/CMakeFiles/appmodules.dir
-C:/Users/Manar/VISION-MobileApp/android/app/.cxx/Debug/3y6v603y/x86_64/CMakeFiles/edit_cache.dir
-C:/Users/Manar/VISION-MobileApp/android/app/.cxx/Debug/3y6v603y/x86_64/CMakeFiles/rebuild_cache.dir
-C:/Users/Manar/VISION-MobileApp/android/app/.cxx/Debug/3y6v603y/x86_64/safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir
-C:/Users/Manar/VISION-MobileApp/android/app/.cxx/Debug/3y6v603y/x86_64/safeareacontext_autolinked_build/CMakeFiles/edit_cache.dir
-C:/Users/Manar/VISION-MobileApp/android/app/.cxx/Debug/3y6v603y/x86_64/safeareacontext_autolinked_build/CMakeFiles/rebuild_cache.dir
