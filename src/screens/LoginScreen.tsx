@@ -44,20 +44,9 @@ export default function LoginScreen(): React.JSX.Element {
       await auth.signIn(username.trim(), password);
     } catch (e: any) {
       if (axios.isAxiosError(e)) {
-        var status = e.response?.status;
         var apiMsg: string | undefined = e.response?.data?.message;
 
-        if (status === 401) {
-          Alert.alert("Login failed", "Invalid credentials.");
-          return;
-        }
-
-        if (status === 403) {
-          Alert.alert("Account disabled", apiMsg ?? "Your account is deactivated.");
-          return;
-        }
-
-        Alert.alert("Error", apiMsg ?? "Login failed. Please try again.");
+        Alert.alert("Error", apiMsg ?? "An unexpected error occurred :/");
         return;
       }
 
