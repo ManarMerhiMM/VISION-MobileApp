@@ -7,39 +7,35 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Metro
+# Metro / React Native
 .metro-health-check*
-
-# ===============================
-# Environment files
-# ===============================
-.env
-.env.local
-.env.development
-.env.production
-
-# ===============================
-# React Native
-# ===============================
 .bundle/
 dist/
+
+# ===============================
+# Environment files (DO NOT COMMIT)
+# ===============================
+.env
+.env.*
+!.env.example
 
 # ===============================
 # Android
 # ===============================
 android/.gradle/
-android/app/build/
-android/build/
-android/local.properties
 android/.idea/
+android/build/
+android/app/build/
+android/app/.cxx/
+android/local.properties
+android/debug.keystore
 android/*.iml
-android/gradlew.bat
-android/gradlew
-android/gradle/wrapper/gradle-wrapper.jar
-android/gradle/wrapper/gradle-wrapper.properties
 
-# Logs
-*.log
+# DO NOT ignore Gradle wrapper (IMPORTANT)
+# gradlew
+# gradlew.bat
+# gradle-wrapper.jar
+# gradle-wrapper.properties
 
 # ===============================
 # iOS
@@ -67,16 +63,7 @@ ios/.idea/
 .DS_Store
 Thumbs.db
 
-
-# Android build artifacts
-android/app/.cxx/
-android/app/build/
-android/.gradle/
-android/build/
-android/local.properties
-android/debug.keystore
-*.log
-
-
+# ===============================
 # Logs
+# ===============================
 *.log
